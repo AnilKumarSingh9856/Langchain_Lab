@@ -1,0 +1,22 @@
+[project]
+name = "chai-code"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "dotenv>=0.9.9",
+    "jupyter>=1.1.1",
+    "langchain>=1.4.6",
+    "langchain-anthropic>=1.7.6",
+    "langchain-core>=1.6.12",
+    "langchain-google-genai>=4.4.2",
+    "langchain-huggingface>=1.2.3",
+    "langchain-openai>=1.7.2",
+    "notebook>=7.6.3",
+    "openai>=1.0.0",
+    "scikit-learn>=1.9.1",
+    "sentence-transformers>=6.1.0",
+    "torch>=2.14.1",
+    "transformers>=5.20.1",
+]
