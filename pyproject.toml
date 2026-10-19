@@ -17,6 +17,7 @@ dependencies = [
     "openai>=1.0.0",
     "scikit-learn>=1.9.1",
     "sentence-transformers>=6.1.0",
+    "streamlit>=1.66.0",
     "torch>=2.14.1",
     "transformers>=5.20.1",
 ]
