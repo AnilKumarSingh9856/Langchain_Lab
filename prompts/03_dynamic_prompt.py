@@ -29,9 +29,15 @@ Explanation length: {length_input}
 Ensure the summary is clear, accurate, and aligned with the requested style and length.
 """,
     input_variables=["paper_input", "style_input", "length_input"],
-    validate_template=True,
+    validate_template=True, # if any of those above field missing it generate error
 )
 
+## Why use PromptTemplate over f-strings
+"""
+    1. Default validation
+    2. Resuable
+    3. Langchain Ecosystem
+"""
 
 st.header("Research Tool")
 
