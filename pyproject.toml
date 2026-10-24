@@ -9,6 +9,7 @@ dependencies = [
     "jupyter>=1.1.1",
     "langchain>=1.4.6",
     "langchain-anthropic>=1.7.6",
+    "langchain-classic>=1.0.8",
     "langchain-core>=1.6.12",
     "langchain-google-genai>=4.4.2",
     "langchain-huggingface>=1.2.3",
