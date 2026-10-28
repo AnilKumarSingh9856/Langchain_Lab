@@ -1,4 +1,8 @@
+from pathlib import Path
+
 from langchain_core.prompts import PromptTemplate
+
+TEMPLATE_PATH = Path(__file__).with_name("04a_template.json")
 
 template = PromptTemplate(
     template="""
@@ -19,4 +23,5 @@ Ensure the summary is clear, accurate, and aligned with the requested style and 
     validate_template=True,
 )
 
-template.save('041_template.json')
+if __name__ == "__main__":
+    template.save(str(TEMPLATE_PATH))

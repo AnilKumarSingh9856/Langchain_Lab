@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 
 import streamlit as st
 from dotenv import load_dotenv
@@ -7,6 +8,8 @@ from langchain_openai import ChatOpenAI
 
 load_dotenv()
 
+TEMPLATE_PATH = Path(__file__).with_name("04a_template.json")
+
 model = ChatOpenAI(
     model="openai/gpt-4o-mini",
     api_key=os.getenv("OPENROUTER_API_KEY"),
@@ -14,7 +17,7 @@ model = ChatOpenAI(
     max_tokens=512,
 )
 
-template = load_prompt("041_template.json")
+template = load_prompt(str(TEMPLATE_PATH))
 
 
 st.header("Research Tool")
