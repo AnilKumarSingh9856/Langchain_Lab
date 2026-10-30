@@ -13,6 +13,7 @@ dependencies = [
     "langchain-classic>=1.0.8",
     "langchain-community>=0.4.1",
     "langchain-core>=1.6.12",
+    "langchain-experimental>=0.4.2",
     "langchain-google-genai>=4.4.2",
     "langchain-huggingface>=1.2.3",
     "langchain-openai>=1.7.2",
