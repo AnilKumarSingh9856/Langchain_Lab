@@ -5,11 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "chromadb>=1.5.9",
     "dotenv>=0.9.9",
     "grandalf>=0.8",
     "jupyter>=1.1.1",
     "langchain>=1.4.6",
     "langchain-anthropic>=1.7.6",
+    "langchain-chroma>=1.1.0",
     "langchain-classic>=1.0.8",
     "langchain-community>=0.4.1",
     "langchain-core>=1.6.12",
@@ -25,6 +27,7 @@ dependencies = [
     "scikit-learn>=1.9.1",
     "sentence-transformers>=6.1.0",
     "streamlit>=1.66.0",
+    "tiktoken>=0.14.0",
     "torch>=2.14.1",
     "transformers>=5.20.1",
 ]
