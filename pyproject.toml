@@ -7,6 +7,7 @@ requires-python = ">=3.14"
 dependencies = [
     "chromadb>=1.5.9",
     "dotenv>=0.9.9",
+    "faiss-cpu>=1.15.1",
     "grandalf>=0.8",
     "jupyter>=1.1.1",
     "langchain>=1.4.6",
@@ -30,4 +31,5 @@ dependencies = [
     "tiktoken>=0.14.0",
     "torch>=2.14.1",
     "transformers>=5.20.1",
+    "wikipedia>=1.4.0",
 ]
