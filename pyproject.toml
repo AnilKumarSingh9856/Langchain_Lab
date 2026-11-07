@@ -7,7 +7,9 @@ requires-python = ">=3.14"
 dependencies = [
     "chromadb>=1.5.9",
     "clear>=2.0.0",
+    "ddgs>=9.16.1",
     "dotenv>=0.9.9",
+    "duckduckgo-search>=8.1.1",
     "faiss-cpu>=1.15.1",
     "grandalf>=0.8",
     "jupyter>=1.1.1",
